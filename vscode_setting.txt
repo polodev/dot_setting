@@ -1,0 +1,61 @@
+{
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useCtrlKeys": false,
+    "vim.leader": ",",
+    "vim.hlsearch": true,
+    "editor.fontFamily": "'Fira Code', 'Fira Mono', Monaco, Menlo, monospace",
+    "editor.lineHeight": 20,
+    "editor.fontSize": 18,
+    "editor.formatOnPaste": true,
+    "editor.minimap.enabled": false,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "off",
+    "editor.fontLigatures": true,   
+
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j","j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.otherModesKeyBindingsNonRecursive": [
+         {
+            "before": ["leader", "l"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.focusNextGroup",
+                    "args": []
+                }
+            ]
+        },
+
+        {
+            "before": ["leader", "h"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.focusPreviousGroup",
+                    "args": []
+                }
+            ]
+        },
+
+        {
+            "before": ["leader", "z"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "redo",
+                    "args": []
+                }
+            ]
+        }
+
+       
+    ],
+    "vim.disableAnnoyingNeovimMessage": true,
+    "window.zoomLevel": 0,
+    "workbench.sideBar.location": "left"
+}
